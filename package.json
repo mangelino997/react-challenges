@@ -14,6 +14,8 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "typescript": "*",
+    "universal-cookie": "^7.0.2",
+    "uuid": "^9.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -37,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "@types/uuid": "^9.0.8",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "eslint": "^8.0.1",
     "eslint-config-standard-with-typescript": "^43.0.1",
@@ -48,8 +51,8 @@
     "lint-staged": "^15.2.2"
   },
   "husky": {
-		"hooks": {
-			"pre-commit": "lint-staged"
-		}
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
